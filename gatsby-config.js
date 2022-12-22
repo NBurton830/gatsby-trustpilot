@@ -22,13 +22,6 @@ module.exports = {
         shopifyConnections: ["collections"],
       },
     },
-    {
-      resolve: 'gatsby-source-trustpilot-api',
-      options: {
-          apiKey: 'CqEzUGVIW4WAeLo5G7ZTquxrArq3K8Q7',
-          domainName: 'nyshawnburton.com' // ex: trustpilot.com
-      }
-    },
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
